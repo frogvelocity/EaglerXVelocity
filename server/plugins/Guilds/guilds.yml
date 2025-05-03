@@ -1,0 +1,273 @@
+TEST:
+  Settings:
+    Color: '&a'
+    Prefix: 'AVO '
+    Suffix: ''
+    Kills: 0
+    Deaths: 0
+    Exp: 0
+  Proficiencies:
+    ATTACK_MELEE:
+      Active: false
+      Power: 1.0
+    ATTACK_PROJECTILE:
+      Active: false
+      Power: 1.0
+    DEFENSE_MELEE:
+      Active: false
+      Power: 1.0
+    DEFENSE_PROJECTILE:
+      Active: false
+      Power: 1.0
+    DEFENSE_FALL:
+      Active: false
+      Power: 1.0
+    DEFENSE_SUFFOCATION:
+      Active: false
+      Power: 1.0
+    DEFENSE_CONTACT:
+      Active: false
+      Power: 1.0
+    DEFENSE_FIRE:
+      Active: false
+      Power: 1.0
+    DEFENSE_LAVA:
+      Active: false
+      Power: 1.0
+    DEFENSE_DROWNING:
+      Active: false
+      Power: 1.0
+    DEFENSE_EXPLOSION:
+      Active: false
+      Power: 1.0
+    DEFENSE_LIGHTNING:
+      Active: false
+      Power: 1.0
+    DEFENSE_STARVATION:
+      Active: false
+      Power: 1.0
+    DEFENSE_POISON:
+      Active: false
+      Power: 1.0
+    DEFENSE_MAGIC:
+      Active: false
+      Power: 1.0
+    DEFENSE_WITHER:
+      Active: false
+      Power: 1.0
+    XP_MULTIPLIER:
+      Active: false
+      Power: 1.0
+    TOOL_DURABILITY:
+      Active: false
+      Power: 1.0
+    REFLECT:
+      Active: false
+      Power: 1.0
+      CoolDown: 0
+    EXPLODEDEATH:
+      Active: false
+      Power: 1.0
+    INSTA_MINE:
+      Active: false
+      CoolDown: 0
+      Ticks: 0
+    INSTA_DIG:
+      Active: false
+      CoolDown: 0
+      Ticks: 0
+    INSTA_SHEAR:
+      Active: false
+      CoolDown: 0
+      Ticks: 0
+    INSTA_AXE:
+      Active: false
+      CoolDown: 0
+      Ticks: 0
+    POISONBLADE:
+      Active: false
+      CoolDown: 0
+      Ticks: 0
+    FIREBLADE:
+      Active: true
+      CoolDown: 0
+      Ticks: 0
+    FIREPUNCH:
+      Active: false
+      CoolDown: 0
+      Ticks: 0
+    FIREARROW:
+      Active: false
+      CoolDown: 0
+      Ticks: 0
+    LIGHTNINGARROW:
+      Active: false
+      CoolDown: 0
+    EXPLOSIVEARROW:
+      Active: false
+      Power: 1.0
+      CoolDown: 0
+    POISONARROW:
+      Active: false
+      CoolDown: 0
+      Ticks: 0
+    TPARROW:
+      Active: false
+      CoolDown: 0
+    BLINDNESSARROW:
+      Active: false
+      CoolDown: 0
+      Ticks: 0
+    CONFUSIONARROW:
+      Active: false
+      CoolDown: 0
+      Ticks: 0
+    STRAIGHTARROW:
+      Active: false
+      CoolDown: 0
+    ZOMBIEARROW:
+      Active: false
+      CoolDown: 0
+    MOBARROW:
+      Active: false
+      CoolDown: 0
+    PEACEKEEPER:
+      Active: false
+    KNOCKBACK:
+      Active: false
+      Power: 1.0
+      CoolDown: 0
+    MOBTARGET:
+      Active: false
+      CoolDown: 0
+    FLIGHT:
+      Active: false
+      Power: 1.0
+    HIGHJUMP:
+      Active: false
+      Power: 1.0
+    SUNLIGHT:
+      Active: false
+      Power: 1.0
+    MOONLIGHT:
+      Active: false
+      Power: 1.0
+    STORM:
+      Active: false
+      Power: 1.0
+    WATERDAMAGE:
+      Active: false
+      Power: 1.0
+    LANDDAMAGE:
+      Active: false
+      Power: 1.0
+    RECOVERHEALTH:
+      Active: true
+    RECOVERITEMS:
+      Active: false
+    RECOVEREXP:
+      Active: false
+    INVISIBLE:
+      Active: false
+      Power: 1.0
+      CoolDown: 0
+    ALTITUDE:
+      Active: false
+      Power: 1.0
+      Minimum: 0
+      Maximum: 0
+    SWIMMER:
+      Active: false
+      Power: 1.0
+    SPEED:
+      Active: false
+      Power: 1.0
+    MAX_HEALTH:
+      Active: true
+      Power: 10.0
+    OXYGEN:
+      Active: false
+      Power: 1.0
+    SEE_INVISIBLE:
+      Active: true
+    DISABLE_GUILD_IN_SUNLIGHT:
+      Active: false
+    DISABLE_GUILD_IN_MOONLIGHT:
+      Active: false
+    DISABLE_GUILD_INSIDE:
+      Active: false
+  Worlds:
+    world: true
+    world_nether: true
+    world_the_end: true
+  Biomes:
+    SWAMPLAND: true
+    FOREST: true
+    TAIGA: true
+    DESERT: true
+    PLAINS: true
+    HELL: true
+    SKY: true
+    OCEAN: true
+    RIVER: true
+    EXTREME_HILLS: true
+    FROZEN_OCEAN: true
+    FROZEN_RIVER: true
+    ICE_PLAINS: false
+    ICE_MOUNTAINS: true
+    MUSHROOM_ISLAND: true
+    MUSHROOM_SHORE: false
+    BEACH: false
+    DESERT_HILLS: true
+    FOREST_HILLS: true
+    TAIGA_HILLS: true
+    SMALL_MOUNTAINS: false
+    JUNGLE: true
+    JUNGLE_HILLS: true
+    JUNGLE_EDGE: true
+    DEEP_OCEAN: true
+    STONE_BEACH: true
+    COLD_BEACH: true
+    BIRCH_FOREST: true
+    BIRCH_FOREST_HILLS: true
+    ROOFED_FOREST: true
+    COLD_TAIGA: false
+    COLD_TAIGA_HILLS: false
+    MEGA_TAIGA: false
+    MEGA_TAIGA_HILLS: false
+    EXTREME_HILLS_PLUS: false
+    SAVANNA: true
+    SAVANNA_PLATEAU: false
+    MESA: true
+    MESA_PLATEAU_FOREST: false
+    MESA_PLATEAU: false
+    SUNFLOWER_PLAINS: false
+    DESERT_MOUNTAINS: false
+    FLOWER_FOREST: false
+    TAIGA_MOUNTAINS: false
+    SWAMPLAND_MOUNTAINS: false
+    ICE_PLAINS_SPIKES: false
+    JUNGLE_MOUNTAINS: false
+    JUNGLE_EDGE_MOUNTAINS: false
+    COLD_TAIGA_MOUNTAINS: false
+    SAVANNA_MOUNTAINS: false
+    SAVANNA_PLATEAU_MOUNTAINS: false
+    MESA_BRYCE: false
+    MESA_PLATEAU_FOREST_MOUNTAINS: false
+    MESA_PLATEAU_MOUNTAINS: false
+    BIRCH_FOREST_MOUNTAINS: false
+    BIRCH_FOREST_HILLS_MOUNTAINS: false
+    ROOFED_FOREST_MOUNTAINS: false
+    MEGA_SPRUCE_TAIGA: false
+    EXTREME_HILLS_MOUNTAINS: false
+    EXTREME_HILLS_PLUS_MOUNTAINS: false
+    MEGA_SPRUCE_TAIGA_HILLS: false
+  Restrictions:
+  - DIRT
+  Base:
+    World: world
+    X: 39.45373428224406
+    Y: 63.0
+    Z: 82.12064543166778
+    Yaw: -0.46957308
+    Pitch: 17.725046

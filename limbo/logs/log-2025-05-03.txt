@@ -1,0 +1,19 @@
+02:22:42.844 INFO  Limbo -- Starting server...
+02:22:44.503 INFO  Limbo -- Server started on localhost/127.0.0.1:65535
+02:22:50.331 INFO  Limbo -- Unknown command. Type "help" to get commands list
+02:29:36.351 INFO  Limbo -- Player cocainefrog connected (/127.0.0.1:50816) [V1_8]
+02:29:51.842 INFO  Limbo -- Player cocainefrog disconnected
+02:36:19.497 INFO  Limbo -- Player cocainefrog connected (/127.0.0.1:34174) [V1_8]
+02:36:25.265 INFO  Limbo -- Player cocainefrog disconnected
+02:36:25.428 INFO  Limbo -- Player cocainefrog connected (/127.0.0.1:34186) [V1_8]
+02:36:57.967 INFO  Limbo -- Player cocainefrog disconnected
+02:36:59.836 INFO  Limbo -- Player cocainefrog connected (/127.0.0.1:43948) [V1_8]
+02:37:04.990 INFO  Limbo -- Player cocainefrog disconnected
+02:37:05.056 INFO  Limbo -- Player cocainefrog connected (/127.0.0.1:43952) [V1_8]
+02:37:23.267 INFO  Limbo -- Player cocainefrog disconnected
+02:37:24.880 INFO  Limbo -- Player cocainefrog connected (/127.0.0.1:40970) [V1_8]
+02:38:25.427 INFO  Limbo -- Player cocainefrog disconnected
+02:38:27.335 INFO  Limbo -- Player cocainefrog connected (/127.0.0.1:38124) [V1_8]
+02:39:09.137 INFO  Limbo -- Player cocainefrog disconnected
+02:39:10.754 INFO  Limbo -- Player cocainefrog connected (/127.0.0.1:57924) [V1_8]
+02:39:16.051 INFO  Limbo -- Player cocainefrog disconnected

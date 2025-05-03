@@ -1,0 +1,40 @@
+[2025/05/03 02:23:17]: §9          __             _       
+[2025/05/03 02:23:17]: §9  _ __   / /  ___   __ _(_)_ __  
+[2025/05/03 02:23:17]: §9 | '_ \ / /  / _ \ / _` | | '_ \ 
+[2025/05/03 02:23:17]: §9 | | | / /__| (_) | (_| | | | | |
+[2025/05/03 02:23:17]: §9 |_| |_\____/\___/ \__, |_|_| |_|
+[2025/05/03 02:23:17]: §9                  |___/            
+[2025/05/03 02:23:17]: §9 By: www.nickuc.com - V 10.3.27
+[2025/05/03 02:23:17]: §9 
+[2025/05/03 02:23:17]: §3[nLogin] [DEBUG] All settings were loaded in 211 ms.
+[2025/05/03 02:23:17]: §3[nLogin] [DEBUG] Loading the messages_en.yml message file...
+[2025/05/03 02:23:17]: §3[nLogin] [DEBUG] All plugin messages were loaded in 78 ms (languageByClient=false).
+[2025/05/03 02:23:17]: §3[nLogin] [DEBUG] All proxy settings were loaded in 17 ms.
+[2025/05/03 02:23:17]: §3[nLogin] [DEBUG] Loading database...
+[2025/05/03 02:23:17]: [nLogin] Generating RSA keypair... (this may take a while)
+[2025/05/03 02:23:17]: [nLogin] Download finished (took 932ms, hash = 6c77ce3c8214b402522c06127d69415d29b44b8b2229d241799ee27510166343)
+[2025/05/03 02:23:22]: [nLogin] The RSA key pair was successfully generated. Took 4.92s
+[2025/05/03 02:23:22]: §3[nLogin] [DEBUG] Starting logger filter...
+[2025/05/03 02:23:28]: 
+[2025/05/03 02:23:28]:  §bThank you so much for choosing nLogin! §4<3
+[2025/05/03 02:23:28]: 
+[2025/05/03 02:23:28]:  §4For your safety, please read the message below:
+[2025/05/03 02:23:28]:   §cNever download nLogin from unknown sources.
+[2025/05/03 02:23:28]:   §cA modified version may contain malicious software.
+[2025/05/03 02:23:28]: 
+[2025/05/03 02:23:28]:  §3Trusted sources:
+[2025/05/03 02:23:28]:   §bwww.nickuc.com
+[2025/05/03 02:23:28]:   §bwww.github.com/nickuc
+[2025/05/03 02:23:28]:   §bOpeNLogin installer (from Spigot or GitHub)
+[2025/05/03 02:23:28]: 
+[2025/05/03 02:23:28]:  §3Official support channels:
+[2025/05/03 02:23:28]:   §bDiscord group: §fwww.nickuc.com/discord
+[2025/05/03 02:23:28]:   §bDocumentation: §fdocs.nickuc.com/nlogin/
+[2025/05/03 02:23:28]:   §bEmail: §fsupport@nickuc.com
+[2025/05/03 02:23:28]:   §bYouTube: §fyoutube.com/nickuc
+[2025/05/03 02:23:28]: 
+[2025/05/03 02:23:28]:  §eTo remove this warning, log in with "nlogin.admin" permission on the server
+[2025/05/03 02:23:28]:  §eand click the "Setup plugin" button to configure your plugin.
+[2025/05/03 02:23:28]: 
+[2025/05/03 02:29:18]: [nLogin] Update was successfully queued, do not forcibly stop your server. (v10.3.27 c6c611 => v10.4.21 dc69be)
+[2025/05/03 02:29:18]: [nLogin] Successful plugin core shutdown (took 0.14s)

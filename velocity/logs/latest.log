@@ -1,0 +1,431 @@
+[02:29:20] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Booting up Velocity 3.3.0-SNAPSHOT (git-e60e2063-b399)...
+[02:29:20] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Loading localizations...
+[02:29:20] [main/INFO] [com.velocitypowered.proxy.network.ConnectionManager]: Connections will use epoll channels, libdeflate (Linux x86_64) compression, OpenSSL 1.1.x (Linux x86_64) ciphers
+[02:29:21] [main/WARN] [com.velocitypowered.proxy.config.VelocityConfiguration]: The proxy is running in offline mode! This is a security risk and you will NOT receive any support!
+[02:29:21] [main/INFO] [com.velocitypowered.proxy.config.VelocityConfiguration]: Unable to load your server-icon.png, continuing without it.
+java.io.IOException: Unable to read the image.
+	at com.velocitypowered.api.util.Favicon.create(Favicon.java:105) ~[velocity.jar:3.3.0-SNAPSHOT (git-e60e2063-b399)]
+	at com.velocitypowered.proxy.config.VelocityConfiguration.loadFavicon(VelocityConfiguration.java:242) ~[velocity.jar:3.3.0-SNAPSHOT (git-e60e2063-b399)]
+	at com.velocitypowered.proxy.config.VelocityConfiguration.validate(VelocityConfiguration.java:233) ~[velocity.jar:3.3.0-SNAPSHOT (git-e60e2063-b399)]
+	at com.velocitypowered.proxy.VelocityServer.doStartupConfigLoad(VelocityServer.java:332) ~[velocity.jar:3.3.0-SNAPSHOT (git-e60e2063-b399)]
+	at com.velocitypowered.proxy.VelocityServer.start(VelocityServer.java:232) ~[velocity.jar:3.3.0-SNAPSHOT (git-e60e2063-b399)]
+	at com.velocitypowered.proxy.Velocity.main(Velocity.java:71) ~[velocity.jar:3.3.0-SNAPSHOT (git-e60e2063-b399)]
+[02:29:21] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Loading plugins...
+[02:29:21] [main/ERROR] [com.velocitypowered.proxy.plugin.VelocityPluginManager]: Unable to load plugin plugins/economymanager.jar
+com.velocitypowered.api.plugin.InvalidPluginException: The plugin file economymanager.jar appears to be a Bukkit or BungeeCord plugin. Velocity does not support Bukkit or BungeeCord plugins.
+	at com.velocitypowered.proxy.plugin.loader.java.JavaPluginLoader.getSerializedPluginInfo(JavaPluginLoader.java:161) ~[velocity.jar:3.3.0-SNAPSHOT (git-e60e2063-b399)]
+	at com.velocitypowered.proxy.plugin.loader.java.JavaPluginLoader.loadCandidate(JavaPluginLoader.java:62) ~[velocity.jar:3.3.0-SNAPSHOT (git-e60e2063-b399)]
+	at com.velocitypowered.proxy.plugin.VelocityPluginManager.loadPlugins(VelocityPluginManager.java:96) ~[velocity.jar:3.3.0-SNAPSHOT (git-e60e2063-b399)]
+	at com.velocitypowered.proxy.VelocityServer.loadPlugins(VelocityServer.java:362) ~[velocity.jar:3.3.0-SNAPSHOT (git-e60e2063-b399)]
+	at com.velocitypowered.proxy.VelocityServer.start(VelocityServer.java:239) ~[velocity.jar:3.3.0-SNAPSHOT (git-e60e2063-b399)]
+	at com.velocitypowered.proxy.Velocity.main(Velocity.java:71) ~[velocity.jar:3.3.0-SNAPSHOT (git-e60e2063-b399)]
+[02:29:21] [main/ERROR] [com.velocitypowered.proxy.plugin.VelocityPluginManager]: Unable to load plugin plugins/BetterRTP-3.6.13.jar
+com.velocitypowered.api.plugin.InvalidPluginException: The plugin file BetterRTP-3.6.13.jar appears to be a Bukkit or BungeeCord plugin. Velocity does not support Bukkit or BungeeCord plugins.
+	at com.velocitypowered.proxy.plugin.loader.java.JavaPluginLoader.getSerializedPluginInfo(JavaPluginLoader.java:161) ~[velocity.jar:3.3.0-SNAPSHOT (git-e60e2063-b399)]
+	at com.velocitypowered.proxy.plugin.loader.java.JavaPluginLoader.loadCandidate(JavaPluginLoader.java:62) ~[velocity.jar:3.3.0-SNAPSHOT (git-e60e2063-b399)]
+	at com.velocitypowered.proxy.plugin.VelocityPluginManager.loadPlugins(VelocityPluginManager.java:96) ~[velocity.jar:3.3.0-SNAPSHOT (git-e60e2063-b399)]
+	at com.velocitypowered.proxy.VelocityServer.loadPlugins(VelocityServer.java:362) ~[velocity.jar:3.3.0-SNAPSHOT (git-e60e2063-b399)]
+	at com.velocitypowered.proxy.VelocityServer.start(VelocityServer.java:239) ~[velocity.jar:3.3.0-SNAPSHOT (git-e60e2063-b399)]
+	at com.velocitypowered.proxy.Velocity.main(Velocity.java:71) ~[velocity.jar:3.3.0-SNAPSHOT (git-e60e2063-b399)]
+[02:29:21] [main/ERROR] [com.velocitypowered.proxy.plugin.VelocityPluginManager]: Unable to load plugin plugins/worldedit-bukkit-6.1.9.jar
+com.velocitypowered.api.plugin.InvalidPluginException: The plugin file worldedit-bukkit-6.1.9.jar appears to be a Bukkit or BungeeCord plugin. Velocity does not support Bukkit or BungeeCord plugins.
+	at com.velocitypowered.proxy.plugin.loader.java.JavaPluginLoader.getSerializedPluginInfo(JavaPluginLoader.java:161) ~[velocity.jar:3.3.0-SNAPSHOT (git-e60e2063-b399)]
+	at com.velocitypowered.proxy.plugin.loader.java.JavaPluginLoader.loadCandidate(JavaPluginLoader.java:62) ~[velocity.jar:3.3.0-SNAPSHOT (git-e60e2063-b399)]
+	at com.velocitypowered.proxy.plugin.VelocityPluginManager.loadPlugins(VelocityPluginManager.java:96) ~[velocity.jar:3.3.0-SNAPSHOT (git-e60e2063-b399)]
+	at com.velocitypowered.proxy.VelocityServer.loadPlugins(VelocityServer.java:362) ~[velocity.jar:3.3.0-SNAPSHOT (git-e60e2063-b399)]
+	at com.velocitypowered.proxy.VelocityServer.start(VelocityServer.java:239) ~[velocity.jar:3.3.0-SNAPSHOT (git-e60e2063-b399)]
+	at com.velocitypowered.proxy.Velocity.main(Velocity.java:71) ~[velocity.jar:3.3.0-SNAPSHOT (git-e60e2063-b399)]
+[02:29:21] [main/ERROR] [com.velocitypowered.proxy.plugin.VelocityPluginManager]: Unable to load plugin plugins/iDisguise.jar
+com.velocitypowered.api.plugin.InvalidPluginException: The plugin file iDisguise.jar appears to be a Bukkit or BungeeCord plugin. Velocity does not support Bukkit or BungeeCord plugins.
+	at com.velocitypowered.proxy.plugin.loader.java.JavaPluginLoader.getSerializedPluginInfo(JavaPluginLoader.java:161) ~[velocity.jar:3.3.0-SNAPSHOT (git-e60e2063-b399)]
+	at com.velocitypowered.proxy.plugin.loader.java.JavaPluginLoader.loadCandidate(JavaPluginLoader.java:62) ~[velocity.jar:3.3.0-SNAPSHOT (git-e60e2063-b399)]
+	at com.velocitypowered.proxy.plugin.VelocityPluginManager.loadPlugins(VelocityPluginManager.java:96) ~[velocity.jar:3.3.0-SNAPSHOT (git-e60e2063-b399)]
+	at com.velocitypowered.proxy.VelocityServer.loadPlugins(VelocityServer.java:362) ~[velocity.jar:3.3.0-SNAPSHOT (git-e60e2063-b399)]
+	at com.velocitypowered.proxy.VelocityServer.start(VelocityServer.java:239) ~[velocity.jar:3.3.0-SNAPSHOT (git-e60e2063-b399)]
+	at com.velocitypowered.proxy.Velocity.main(Velocity.java:71) ~[velocity.jar:3.3.0-SNAPSHOT (git-e60e2063-b399)]
+[02:29:21] [main/ERROR] [com.velocitypowered.proxy.plugin.VelocityPluginManager]: Unable to load plugin plugins/EconomyShopGUI-6.12.2(1).jar
+com.velocitypowered.api.plugin.InvalidPluginException: The plugin file EconomyShopGUI-6.12.2(1).jar appears to be a Bukkit or BungeeCord plugin. Velocity does not support Bukkit or BungeeCord plugins.
+	at com.velocitypowered.proxy.plugin.loader.java.JavaPluginLoader.getSerializedPluginInfo(JavaPluginLoader.java:161) ~[velocity.jar:3.3.0-SNAPSHOT (git-e60e2063-b399)]
+	at com.velocitypowered.proxy.plugin.loader.java.JavaPluginLoader.loadCandidate(JavaPluginLoader.java:62) ~[velocity.jar:3.3.0-SNAPSHOT (git-e60e2063-b399)]
+	at com.velocitypowered.proxy.plugin.VelocityPluginManager.loadPlugins(VelocityPluginManager.java:96) ~[velocity.jar:3.3.0-SNAPSHOT (git-e60e2063-b399)]
+	at com.velocitypowered.proxy.VelocityServer.loadPlugins(VelocityServer.java:362) ~[velocity.jar:3.3.0-SNAPSHOT (git-e60e2063-b399)]
+	at com.velocitypowered.proxy.VelocityServer.start(VelocityServer.java:239) ~[velocity.jar:3.3.0-SNAPSHOT (git-e60e2063-b399)]
+	at com.velocitypowered.proxy.Velocity.main(Velocity.java:71) ~[velocity.jar:3.3.0-SNAPSHOT (git-e60e2063-b399)]
+[02:29:21] [main/ERROR] [com.velocitypowered.proxy.plugin.VelocityPluginManager]: Unable to load plugin plugins/OpenInv.jar
+com.velocitypowered.api.plugin.InvalidPluginException: The plugin file OpenInv.jar appears to be a Bukkit or BungeeCord plugin. Velocity does not support Bukkit or BungeeCord plugins.
+	at com.velocitypowered.proxy.plugin.loader.java.JavaPluginLoader.getSerializedPluginInfo(JavaPluginLoader.java:161) ~[velocity.jar:3.3.0-SNAPSHOT (git-e60e2063-b399)]
+	at com.velocitypowered.proxy.plugin.loader.java.JavaPluginLoader.loadCandidate(JavaPluginLoader.java:62) ~[velocity.jar:3.3.0-SNAPSHOT (git-e60e2063-b399)]
+	at com.velocitypowered.proxy.plugin.VelocityPluginManager.loadPlugins(VelocityPluginManager.java:96) ~[velocity.jar:3.3.0-SNAPSHOT (git-e60e2063-b399)]
+	at com.velocitypowered.proxy.VelocityServer.loadPlugins(VelocityServer.java:362) ~[velocity.jar:3.3.0-SNAPSHOT (git-e60e2063-b399)]
+	at com.velocitypowered.proxy.VelocityServer.start(VelocityServer.java:239) ~[velocity.jar:3.3.0-SNAPSHOT (git-e60e2063-b399)]
+	at com.velocitypowered.proxy.Velocity.main(Velocity.java:71) ~[velocity.jar:3.3.0-SNAPSHOT (git-e60e2063-b399)]
+[02:29:21] [main/ERROR] [com.velocitypowered.proxy.plugin.VelocityPluginManager]: Unable to load plugin plugins/worldguard-6.2.jar
+com.velocitypowered.api.plugin.InvalidPluginException: The plugin file worldguard-6.2.jar appears to be a Bukkit or BungeeCord plugin. Velocity does not support Bukkit or BungeeCord plugins.
+	at com.velocitypowered.proxy.plugin.loader.java.JavaPluginLoader.getSerializedPluginInfo(JavaPluginLoader.java:161) ~[velocity.jar:3.3.0-SNAPSHOT (git-e60e2063-b399)]
+	at com.velocitypowered.proxy.plugin.loader.java.JavaPluginLoader.loadCandidate(JavaPluginLoader.java:62) ~[velocity.jar:3.3.0-SNAPSHOT (git-e60e2063-b399)]
+	at com.velocitypowered.proxy.plugin.VelocityPluginManager.loadPlugins(VelocityPluginManager.java:96) ~[velocity.jar:3.3.0-SNAPSHOT (git-e60e2063-b399)]
+	at com.velocitypowered.proxy.VelocityServer.loadPlugins(VelocityServer.java:362) ~[velocity.jar:3.3.0-SNAPSHOT (git-e60e2063-b399)]
+	at com.velocitypowered.proxy.VelocityServer.start(VelocityServer.java:239) ~[velocity.jar:3.3.0-SNAPSHOT (git-e60e2063-b399)]
+	at com.velocitypowered.proxy.Velocity.main(Velocity.java:71) ~[velocity.jar:3.3.0-SNAPSHOT (git-e60e2063-b399)]
+[02:29:21] [main/ERROR] [com.velocitypowered.proxy.plugin.VelocityPluginManager]: Unable to load plugin plugins/ChestActions.jar
+com.velocitypowered.api.plugin.InvalidPluginException: The plugin file ChestActions.jar appears to be a Bukkit or BungeeCord plugin. Velocity does not support Bukkit or BungeeCord plugins.
+	at com.velocitypowered.proxy.plugin.loader.java.JavaPluginLoader.getSerializedPluginInfo(JavaPluginLoader.java:161) ~[velocity.jar:3.3.0-SNAPSHOT (git-e60e2063-b399)]
+	at com.velocitypowered.proxy.plugin.loader.java.JavaPluginLoader.loadCandidate(JavaPluginLoader.java:62) ~[velocity.jar:3.3.0-SNAPSHOT (git-e60e2063-b399)]
+	at com.velocitypowered.proxy.plugin.VelocityPluginManager.loadPlugins(VelocityPluginManager.java:96) ~[velocity.jar:3.3.0-SNAPSHOT (git-e60e2063-b399)]
+	at com.velocitypowered.proxy.VelocityServer.loadPlugins(VelocityServer.java:362) ~[velocity.jar:3.3.0-SNAPSHOT (git-e60e2063-b399)]
+	at com.velocitypowered.proxy.VelocityServer.start(VelocityServer.java:239) ~[velocity.jar:3.3.0-SNAPSHOT (git-e60e2063-b399)]
+	at com.velocitypowered.proxy.Velocity.main(Velocity.java:71) ~[velocity.jar:3.3.0-SNAPSHOT (git-e60e2063-b399)]
+[02:29:21] [main/ERROR] [com.velocitypowered.proxy.plugin.VelocityPluginManager]: Unable to load plugin plugins/Vault.jar
+com.velocitypowered.api.plugin.InvalidPluginException: The plugin file Vault.jar appears to be a Bukkit or BungeeCord plugin. Velocity does not support Bukkit or BungeeCord plugins.
+	at com.velocitypowered.proxy.plugin.loader.java.JavaPluginLoader.getSerializedPluginInfo(JavaPluginLoader.java:161) ~[velocity.jar:3.3.0-SNAPSHOT (git-e60e2063-b399)]
+	at com.velocitypowered.proxy.plugin.loader.java.JavaPluginLoader.loadCandidate(JavaPluginLoader.java:62) ~[velocity.jar:3.3.0-SNAPSHOT (git-e60e2063-b399)]
+	at com.velocitypowered.proxy.plugin.VelocityPluginManager.loadPlugins(VelocityPluginManager.java:96) ~[velocity.jar:3.3.0-SNAPSHOT (git-e60e2063-b399)]
+	at com.velocitypowered.proxy.VelocityServer.loadPlugins(VelocityServer.java:362) ~[velocity.jar:3.3.0-SNAPSHOT (git-e60e2063-b399)]
+	at com.velocitypowered.proxy.VelocityServer.start(VelocityServer.java:239) ~[velocity.jar:3.3.0-SNAPSHOT (git-e60e2063-b399)]
+	at com.velocitypowered.proxy.Velocity.main(Velocity.java:71) ~[velocity.jar:3.3.0-SNAPSHOT (git-e60e2063-b399)]
+[02:29:21] [main/ERROR] [com.velocitypowered.proxy.plugin.VelocityPluginManager]: Unable to load plugin plugins/EssentialsX-2.15.0.1.jar
+com.velocitypowered.api.plugin.InvalidPluginException: The plugin file EssentialsX-2.15.0.1.jar appears to be a Bukkit or BungeeCord plugin. Velocity does not support Bukkit or BungeeCord plugins.
+	at com.velocitypowered.proxy.plugin.loader.java.JavaPluginLoader.getSerializedPluginInfo(JavaPluginLoader.java:161) ~[velocity.jar:3.3.0-SNAPSHOT (git-e60e2063-b399)]
+	at com.velocitypowered.proxy.plugin.loader.java.JavaPluginLoader.loadCandidate(JavaPluginLoader.java:62) ~[velocity.jar:3.3.0-SNAPSHOT (git-e60e2063-b399)]
+	at com.velocitypowered.proxy.plugin.VelocityPluginManager.loadPlugins(VelocityPluginManager.java:96) ~[velocity.jar:3.3.0-SNAPSHOT (git-e60e2063-b399)]
+	at com.velocitypowered.proxy.VelocityServer.loadPlugins(VelocityServer.java:362) ~[velocity.jar:3.3.0-SNAPSHOT (git-e60e2063-b399)]
+	at com.velocitypowered.proxy.VelocityServer.start(VelocityServer.java:239) ~[velocity.jar:3.3.0-SNAPSHOT (git-e60e2063-b399)]
+	at com.velocitypowered.proxy.Velocity.main(Velocity.java:71) ~[velocity.jar:3.3.0-SNAPSHOT (git-e60e2063-b399)]
+[02:29:21] [main/ERROR] [com.velocitypowered.proxy.plugin.VelocityPluginManager]: Unable to load plugin plugins/spark-1.10.119-bukkit.jar
+com.velocitypowered.api.plugin.InvalidPluginException: The plugin file spark-1.10.119-bukkit.jar appears to be a Bukkit or BungeeCord plugin. Velocity does not support Bukkit or BungeeCord plugins.
+	at com.velocitypowered.proxy.plugin.loader.java.JavaPluginLoader.getSerializedPluginInfo(JavaPluginLoader.java:161) ~[velocity.jar:3.3.0-SNAPSHOT (git-e60e2063-b399)]
+	at com.velocitypowered.proxy.plugin.loader.java.JavaPluginLoader.loadCandidate(JavaPluginLoader.java:62) ~[velocity.jar:3.3.0-SNAPSHOT (git-e60e2063-b399)]
+	at com.velocitypowered.proxy.plugin.VelocityPluginManager.loadPlugins(VelocityPluginManager.java:96) ~[velocity.jar:3.3.0-SNAPSHOT (git-e60e2063-b399)]
+	at com.velocitypowered.proxy.VelocityServer.loadPlugins(VelocityServer.java:362) ~[velocity.jar:3.3.0-SNAPSHOT (git-e60e2063-b399)]
+	at com.velocitypowered.proxy.VelocityServer.start(VelocityServer.java:239) ~[velocity.jar:3.3.0-SNAPSHOT (git-e60e2063-b399)]
+	at com.velocitypowered.proxy.Velocity.main(Velocity.java:71) ~[velocity.jar:3.3.0-SNAPSHOT (git-e60e2063-b399)]
+[02:29:21] [main/ERROR] [com.velocitypowered.proxy.plugin.VelocityPluginManager]: Unable to load plugin plugins/Spawn-2.4.1.jar
+com.velocitypowered.api.plugin.InvalidPluginException: The plugin file Spawn-2.4.1.jar appears to be a Bukkit or BungeeCord plugin. Velocity does not support Bukkit or BungeeCord plugins.
+	at com.velocitypowered.proxy.plugin.loader.java.JavaPluginLoader.getSerializedPluginInfo(JavaPluginLoader.java:161) ~[velocity.jar:3.3.0-SNAPSHOT (git-e60e2063-b399)]
+	at com.velocitypowered.proxy.plugin.loader.java.JavaPluginLoader.loadCandidate(JavaPluginLoader.java:62) ~[velocity.jar:3.3.0-SNAPSHOT (git-e60e2063-b399)]
+	at com.velocitypowered.proxy.plugin.VelocityPluginManager.loadPlugins(VelocityPluginManager.java:96) ~[velocity.jar:3.3.0-SNAPSHOT (git-e60e2063-b399)]
+	at com.velocitypowered.proxy.VelocityServer.loadPlugins(VelocityServer.java:362) ~[velocity.jar:3.3.0-SNAPSHOT (git-e60e2063-b399)]
+	at com.velocitypowered.proxy.VelocityServer.start(VelocityServer.java:239) ~[velocity.jar:3.3.0-SNAPSHOT (git-e60e2063-b399)]
+	at com.velocitypowered.proxy.Velocity.main(Velocity.java:71) ~[velocity.jar:3.3.0-SNAPSHOT (git-e60e2063-b399)]
+[02:29:21] [main/ERROR] [com.velocitypowered.proxy.plugin.VelocityPluginManager]: Unable to load plugin plugins/Guilds-3.0.2.jar
+com.velocitypowered.api.plugin.InvalidPluginException: The plugin file Guilds-3.0.2.jar appears to be a Bukkit or BungeeCord plugin. Velocity does not support Bukkit or BungeeCord plugins.
+	at com.velocitypowered.proxy.plugin.loader.java.JavaPluginLoader.getSerializedPluginInfo(JavaPluginLoader.java:161) ~[velocity.jar:3.3.0-SNAPSHOT (git-e60e2063-b399)]
+	at com.velocitypowered.proxy.plugin.loader.java.JavaPluginLoader.loadCandidate(JavaPluginLoader.java:62) ~[velocity.jar:3.3.0-SNAPSHOT (git-e60e2063-b399)]
+	at com.velocitypowered.proxy.plugin.VelocityPluginManager.loadPlugins(VelocityPluginManager.java:96) ~[velocity.jar:3.3.0-SNAPSHOT (git-e60e2063-b399)]
+	at com.velocitypowered.proxy.VelocityServer.loadPlugins(VelocityServer.java:362) ~[velocity.jar:3.3.0-SNAPSHOT (git-e60e2063-b399)]
+	at com.velocitypowered.proxy.VelocityServer.start(VelocityServer.java:239) ~[velocity.jar:3.3.0-SNAPSHOT (git-e60e2063-b399)]
+	at com.velocitypowered.proxy.Velocity.main(Velocity.java:71) ~[velocity.jar:3.3.0-SNAPSHOT (git-e60e2063-b399)]
+[02:29:21] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: :>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>
+[02:29:21] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: :>  
+[02:29:21] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: :>      EAGLERCRAFTXVELOCITY WARNING:
+[02:29:21] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: :>  
+[02:29:21] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: :>  This plugin wasn't tested to be 'working'
+[02:29:21] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: :>  with ANY version of Velocity (and forks)
+[02:29:21] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: :>  apart from the versions listed below:
+[02:29:21] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: :>  
+[02:29:21] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: :>  - Velocity: 3.3.0-SNAPSHOT:e60e2063:b399
+[02:29:21] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: :>  
+[02:29:21] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: :>  This is not a Bukkit/Spigot plugin!
+[02:29:21] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: :>  
+[02:29:21] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: :>  Use "-Deaglerxvelocity.stfu=true" to hide
+[02:29:21] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: :>  
+[02:29:21] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: :>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>
+[02:29:21] [main/INFO] [com.velocitypowered.proxy.plugin.VelocityPluginManager]: Loaded plugin eaglerxvelocity 1.0.5 by lax1dude, ayunami2000
+[02:29:21] [main/INFO] [com.velocitypowered.proxy.plugin.VelocityPluginManager]: Loaded plugin nlogin 10.4.21 by NickUC
+[02:29:21] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Loaded 2 plugins
+[02:29:21] [Velocity Async Event Executor - #0/WARN] [eaglerxvelocity]: This plugin is still in development, certain features may not be functional!
+[02:29:21] [Velocity Async Event Executor - #0/WARN] [eaglerxvelocity]: Not recommended for public servers yet, please check for updates
+[02:29:22] [Velocity Async Event Executor - #0/ERROR] [eaglerxvelocity]: Online mode is set to false! Authentication system has been disabled
+[02:29:22] [Netty epoll Boss #0/INFO] [eaglerxvelocity]: Eaglercraft is listening on: /0.0.0.0:8081
+[02:29:22] [Velocity Async Event Executor - #0/INFO] [eaglerxvelocity]: Connected to database: jdbc:sqlite:eaglercraft_skins_cache.db
+[02:29:22] [Velocity Async Event Executor - #0/INFO] [eaglerxvelocity]: Voice chat disabled, add "allow_voice: true" to your listeners to enable
+[02:29:23] [EaglerXVelocity: Network Tick Tasks/INFO] [eaglerxvelocity]: Loaded certificate: /workspaces/EaglerXVelocity/velocity/plugins/eaglerxvelocity/eagcert/$dl.2c63d6a9be9d273db57d50cb026093cb97ea6e54.cert
+[02:29:23] [EaglerXVelocity: Network Tick Tasks/INFO] [eaglerxvelocity]: Loaded certificate: /workspaces/EaglerXVelocity/velocity/plugins/eaglerxvelocity/eagcert/$dl.ac3aaed1273ced06ef766ab055337fbf29dc3347.cert
+[02:29:23] [EaglerXVelocity: Network Tick Tasks/INFO] [eaglerxvelocity]: Loaded certificate: /workspaces/EaglerXVelocity/velocity/plugins/eaglerxvelocity/eagcert/$dl.ba375b9add3c01ca11899be958188189a3885a59.cert
+[02:29:23] [Velocity Async Event Executor - #0/INFO] [nlogin]: Successful plugin core start (took 0.75s)
+[02:29:23] [Velocity Async Event Executor - #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:           __             _       
+[02:29:23] [Velocity Async Event Executor - #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:   _ __   / /  ___   __ _(_)_ __  
+[02:29:23] [Velocity Async Event Executor - #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:  | '_ \ / /  / _ \ / _` | | '_ \ 
+[02:29:23] [Velocity Async Event Executor - #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:  | | | / /__| (_) | (_| | | | | |
+[02:29:23] [Velocity Async Event Executor - #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:  |_| |_\____/\___/ \__, |_|_| |_|
+[02:29:23] [Velocity Async Event Executor - #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:                   |___/            
+[02:29:23] [Velocity Async Event Executor - #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:  By: www.nickuc.com - V 10.4.21
+[02:29:23] [Velocity Async Event Executor - #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:  
+[02:29:24] [Velocity Async Event Executor - #0/WARN] [nlogin]: 
+[02:29:24] [Velocity Async Event Executor - #0/WARN] [nlogin]: Server requires conversion of database. (nLogin104Converter)
+[02:29:24] [Velocity Async Event Executor - #0/WARN] [nlogin]: DO NOT TURN OFF YOUR SERVER (even if the process seems stuck)
+[02:29:24] [Velocity Async Event Executor - #0/WARN] [nlogin]: 
+[02:29:24] [Velocity Async Event Executor - #0/WARN] [nlogin]: Fetching column names...
+[02:29:24] [Velocity Async Event Executor - #0/WARN] [nlogin]: Renaming table...
+[02:29:24] [Velocity Async Event Executor - #0/WARN] [nlogin]: Cloning table...
+[02:29:24] [Velocity Async Event Executor - #0/WARN] [nlogin]: Fetching duplicated UUIDs...
+[02:29:24] [Velocity Async Event Executor - #0/WARN] [nlogin]: Inserting remaining accounts with duplicated UUIDs... (insert = 0, skip = 0)
+[02:29:24] [Velocity Async Event Executor - #0/WARN] [nlogin]: Conversion finished! (0.120s)
+[02:29:24] [Netty epoll Boss #1/INFO] [com.velocitypowered.proxy.network.ConnectionManager]: Listening on /[0:0:0:0:0:0:0:0%0]:25577
+[02:29:24] [main/INFO] [com.velocitypowered.proxy.Velocity]: Done (5.23s)!
+[02:29:29] [nLogin - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: 
+[02:29:29] [nLogin - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:  Thank you so much for choosing nLogin! <3
+[02:29:29] [nLogin - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: 
+[02:29:29] [nLogin - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:  For your safety, please read the message below:
+[02:29:29] [nLogin - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:   Never download nLogin from unknown sources.
+[02:29:29] [nLogin - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:   A modified version may contain malicious software.
+[02:29:29] [nLogin - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: 
+[02:29:29] [nLogin - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:  Trusted sources:
+[02:29:29] [nLogin - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:   www.nickuc.com
+[02:29:29] [nLogin - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:   www.github.com/nickuc
+[02:29:29] [nLogin - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:   OpeNLogin installer (from Spigot or GitHub)
+[02:29:29] [nLogin - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: 
+[02:29:29] [nLogin - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:  Official support channels:
+[02:29:29] [nLogin - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:   Discord group: www.nickuc.com/discord
+[02:29:29] [nLogin - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:   Documentation: docs.nickuc.com/nlogin/
+[02:29:29] [nLogin - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:   Email: support@nickuc.com
+[02:29:29] [nLogin - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:   YouTube: youtube.com/nickuc
+[02:29:29] [nLogin - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: 
+[02:29:29] [nLogin - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:  To remove this warning, log in with "nlogin.admin" permission on the server
+[02:29:29] [nLogin - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:  and click the "Setup plugin" button to configure your plugin.
+[02:29:29] [nLogin - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: 
+[02:29:30] [Netty epoll Worker #0/WARN] [eaglerxvelocity]: Server icon could not be loaded: /workspaces/EaglerXVelocity/velocity/server-icon.png
+[02:29:35] [Netty epoll Worker #1/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:37540]: Connected via websocket
+[02:29:35] [Netty epoll Worker #1/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:37540]: Origin header is https://englishmathtutor.com
+[02:29:36] [Netty epoll Worker #1/INFO] [eaglerxvelocity]: [connected player] cocainefrog (/[0:0:0:0:0:0:0:1%0]:37540) has connected
+[02:29:36] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] cocainefrog -> lobby has connected
+[02:29:51] [nLogin - Task Executor #0/INFO] [nlogin]: The user cocainefrog has successfully registered.
+[02:29:51] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] cocainefrog -> survival has connected
+[02:29:51] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] cocainefrog -> lobby has disconnected
+[02:30:04] [main/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: This command does not exist.
+[02:35:57] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] cocainefrog (/[0:0:0:0:0:0:0:1%0]:37540) has disconnected
+[02:35:57] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] cocainefrog -> survival has disconnected
+[02:36:19] [Netty epoll Worker #2/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:51438]: Connected via websocket
+[02:36:19] [Netty epoll Worker #2/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:51438]: Origin header is https://englishmathtutor.com
+[02:36:19] [Netty epoll Worker #2/INFO] [eaglerxvelocity]: [connected player] cocainefrog (/[0:0:0:0:0:0:0:1%0]:51438) has connected
+[02:36:19] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] cocainefrog -> lobby has connected
+[02:36:24] [nLogin - Task Executor #0/INFO] [nlogin]: The user cocainefrog has successfully logged in.
+[02:36:25] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] cocainefrog -> survival has connected
+[02:36:25] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] cocainefrog -> lobby has disconnected
+[02:36:25] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] cocainefrog (/[0:0:0:0:0:0:0:1%0]:51438): kicked from server survival: §4[nLogin] Error detected on proxy server setup:
+§r
+§r§cThe current server §f"survival" §cis not listed as an authentication server.
+§r
+§r§cRemove §bnLogin §cif players don't authenticate in this server.
+§r
+§r§eIf this is an error, please add the server in
+§r§ethe §f"nLogin/proxy/config.yml" §efile of the proxy server.
+[02:36:25] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] cocainefrog -> survival has disconnected
+[02:36:25] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] cocainefrog -> lobby has connected
+[02:36:57] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] cocainefrog (/[0:0:0:0:0:0:0:1%0]:51438) has disconnected
+[02:36:57] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] cocainefrog -> lobby has disconnected
+[02:36:59] [Netty epoll Worker #0/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:48120]: Connected via websocket
+[02:36:59] [Netty epoll Worker #0/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:48120]: Origin header is https://englishmathtutor.com
+[02:36:59] [Netty epoll Worker #0/INFO] [eaglerxvelocity]: [connected player] cocainefrog (/[0:0:0:0:0:0:0:1%0]:48120) has connected
+[02:36:59] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] cocainefrog -> lobby has connected
+[02:37:04] [nLogin - Task Executor #0/INFO] [nlogin]: The user cocainefrog has successfully logged in.
+[02:37:04] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] cocainefrog -> survival has connected
+[02:37:04] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] cocainefrog -> lobby has disconnected
+[02:37:05] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] cocainefrog (/[0:0:0:0:0:0:0:1%0]:48120): kicked from server survival: §4[nLogin] Error detected on proxy server setup:
+§r
+§r§cThe current server §f"survival" §cis not listed as an authentication server.
+§r
+§r§cRemove §bnLogin §cif players don't authenticate in this server.
+§r
+§r§eIf this is an error, please add the server in
+§r§ethe §f"nLogin/proxy/config.yml" §efile of the proxy server.
+[02:37:05] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] cocainefrog -> survival has disconnected
+[02:37:05] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] cocainefrog -> lobby has connected
+[02:37:23] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] cocainefrog (/[0:0:0:0:0:0:0:1%0]:48120) has disconnected
+[02:37:23] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] cocainefrog -> lobby has disconnected
+[02:37:24] [Netty epoll Worker #2/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:33824]: Connected via websocket
+[02:37:24] [Netty epoll Worker #2/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:33824]: Origin header is https://englishmathtutor.com
+[02:37:24] [Netty epoll Worker #2/INFO] [eaglerxvelocity]: [connected player] cocainefrog (/[0:0:0:0:0:0:0:1%0]:33824) has connected
+[02:37:24] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] cocainefrog -> lobby has connected
+[02:37:29] [nLogin - Task Executor #0/INFO] [nlogin]: The user cocainefrog has successfully logged in.
+[02:37:29] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] cocainefrog -> survival has connected
+[02:37:29] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] cocainefrog -> survival has disconnected
+[02:37:29] [Netty epoll Worker #2/ERROR] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] cocainefrog (/[0:0:0:0:0:0:0:1%0]:33824): disconnected while connecting to survival: §4[BungeeGuard]
+§r
+§r§fPlease install §aBungeeGuard+ §fon all servers
+§r§fto finish securing your proxy setup.
+§r
+§r§7More information:
+§r§bdocs.nickuc.com/bungeeguard
+[02:37:34] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] cocainefrog -> survival has connected
+[02:37:34] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] cocainefrog -> survival has disconnected
+[02:37:34] [Netty epoll Worker #2/ERROR] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] cocainefrog (/[0:0:0:0:0:0:0:1%0]:33824): disconnected while connecting to survival: §4[BungeeGuard]
+§r
+§r§fPlease install §aBungeeGuard+ §fon all servers
+§r§fto finish securing your proxy setup.
+§r
+§r§7More information:
+§r§bdocs.nickuc.com/bungeeguard
+[02:37:39] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] cocainefrog -> survival has connected
+[02:37:39] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] cocainefrog -> survival has disconnected
+[02:37:39] [Netty epoll Worker #2/ERROR] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] cocainefrog (/[0:0:0:0:0:0:0:1%0]:33824): disconnected while connecting to survival: §4[BungeeGuard]
+§r
+§r§fPlease install §aBungeeGuard+ §fon all servers
+§r§fto finish securing your proxy setup.
+§r
+§r§7More information:
+§r§bdocs.nickuc.com/bungeeguard
+[02:37:44] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] cocainefrog -> survival has connected
+[02:37:44] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] cocainefrog -> survival has disconnected
+[02:37:44] [Netty epoll Worker #2/ERROR] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] cocainefrog (/[0:0:0:0:0:0:0:1%0]:33824): disconnected while connecting to survival: §4[BungeeGuard]
+§r
+§r§fPlease install §aBungeeGuard+ §fon all servers
+§r§fto finish securing your proxy setup.
+§r
+§r§7More information:
+§r§bdocs.nickuc.com/bungeeguard
+[02:37:49] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] cocainefrog -> survival has connected
+[02:37:49] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] cocainefrog -> survival has disconnected
+[02:37:49] [Netty epoll Worker #2/ERROR] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] cocainefrog (/[0:0:0:0:0:0:0:1%0]:33824): disconnected while connecting to survival: §4[BungeeGuard]
+§r
+§r§fPlease install §aBungeeGuard+ §fon all servers
+§r§fto finish securing your proxy setup.
+§r
+§r§7More information:
+§r§bdocs.nickuc.com/bungeeguard
+[02:37:54] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] cocainefrog -> survival has connected
+[02:37:54] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] cocainefrog -> survival has disconnected
+[02:37:54] [Netty epoll Worker #2/ERROR] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] cocainefrog (/[0:0:0:0:0:0:0:1%0]:33824): disconnected while connecting to survival: §4[BungeeGuard]
+§r
+§r§fPlease install §aBungeeGuard+ §fon all servers
+§r§fto finish securing your proxy setup.
+§r
+§r§7More information:
+§r§bdocs.nickuc.com/bungeeguard
+[02:37:59] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] cocainefrog -> survival has connected
+[02:37:59] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] cocainefrog -> survival has disconnected
+[02:37:59] [Netty epoll Worker #2/ERROR] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] cocainefrog (/[0:0:0:0:0:0:0:1%0]:33824): disconnected while connecting to survival: §4[BungeeGuard]
+§r
+§r§fPlease install §aBungeeGuard+ §fon all servers
+§r§fto finish securing your proxy setup.
+§r
+§r§7More information:
+§r§bdocs.nickuc.com/bungeeguard
+[02:38:04] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] cocainefrog -> survival has connected
+[02:38:04] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] cocainefrog -> survival has disconnected
+[02:38:04] [Netty epoll Worker #2/ERROR] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] cocainefrog (/[0:0:0:0:0:0:0:1%0]:33824): disconnected while connecting to survival: §4[BungeeGuard]
+§r
+§r§fPlease install §aBungeeGuard+ §fon all servers
+§r§fto finish securing your proxy setup.
+§r
+§r§7More information:
+§r§bdocs.nickuc.com/bungeeguard
+[02:38:09] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] cocainefrog -> survival has connected
+[02:38:09] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] cocainefrog -> survival has disconnected
+[02:38:09] [Netty epoll Worker #2/ERROR] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] cocainefrog (/[0:0:0:0:0:0:0:1%0]:33824): disconnected while connecting to survival: §4[BungeeGuard]
+§r
+§r§fPlease install §aBungeeGuard+ §fon all servers
+§r§fto finish securing your proxy setup.
+§r
+§r§7More information:
+§r§bdocs.nickuc.com/bungeeguard
+[02:38:14] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] cocainefrog -> survival has connected
+[02:38:14] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] cocainefrog -> survival has disconnected
+[02:38:14] [Netty epoll Worker #2/ERROR] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] cocainefrog (/[0:0:0:0:0:0:0:1%0]:33824): disconnected while connecting to survival: §4[BungeeGuard]
+§r
+§r§fPlease install §aBungeeGuard+ §fon all servers
+§r§fto finish securing your proxy setup.
+§r
+§r§7More information:
+§r§bdocs.nickuc.com/bungeeguard
+[02:38:19] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] cocainefrog -> survival has connected
+[02:38:19] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] cocainefrog -> survival has disconnected
+[02:38:19] [Netty epoll Worker #2/ERROR] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] cocainefrog (/[0:0:0:0:0:0:0:1%0]:33824): disconnected while connecting to survival: §4[BungeeGuard]
+§r
+§r§fPlease install §aBungeeGuard+ §fon all servers
+§r§fto finish securing your proxy setup.
+§r
+§r§7More information:
+§r§bdocs.nickuc.com/bungeeguard
+[02:38:24] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] cocainefrog -> survival has connected
+[02:38:24] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] cocainefrog -> survival has disconnected
+[02:38:24] [Netty epoll Worker #2/ERROR] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] cocainefrog (/[0:0:0:0:0:0:0:1%0]:33824): disconnected while connecting to survival: §4[BungeeGuard]
+§r
+§r§fPlease install §aBungeeGuard+ §fon all servers
+§r§fto finish securing your proxy setup.
+§r
+§r§7More information:
+§r§bdocs.nickuc.com/bungeeguard
+[02:38:25] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] cocainefrog (/[0:0:0:0:0:0:0:1%0]:33824) has disconnected
+[02:38:25] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] cocainefrog -> lobby has disconnected
+[02:38:27] [Netty epoll Worker #0/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:35220]: Connected via websocket
+[02:38:27] [Netty epoll Worker #0/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:35220]: Origin header is https://englishmathtutor.com
+[02:38:27] [Netty epoll Worker #0/INFO] [eaglerxvelocity]: [connected player] cocainefrog (/[0:0:0:0:0:0:0:1%0]:35220) has connected
+[02:38:27] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] cocainefrog -> lobby has connected
+[02:38:32] [nLogin - Task Executor #0/INFO] [nlogin]: The user cocainefrog has successfully logged in.
+[02:38:33] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] cocainefrog -> survival has connected
+[02:38:33] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] cocainefrog -> survival has disconnected
+[02:38:33] [Netty epoll Worker #0/ERROR] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] cocainefrog (/[0:0:0:0:0:0:0:1%0]:35220): disconnected while connecting to survival: §4[BungeeGuard]
+§r
+§r§fPlease install §aBungeeGuard+ §fon all servers
+§r§fto finish securing your proxy setup.
+§r
+§r§7More information:
+§r§bdocs.nickuc.com/bungeeguard
+[02:38:38] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] cocainefrog -> survival has connected
+[02:38:38] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] cocainefrog -> survival has disconnected
+[02:38:38] [Netty epoll Worker #0/ERROR] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] cocainefrog (/[0:0:0:0:0:0:0:1%0]:35220): disconnected while connecting to survival: §4[BungeeGuard]
+§r
+§r§fPlease install §aBungeeGuard+ §fon all servers
+§r§fto finish securing your proxy setup.
+§r
+§r§7More information:
+§r§bdocs.nickuc.com/bungeeguard
+[02:38:43] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] cocainefrog -> survival has connected
+[02:38:43] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] cocainefrog -> survival has disconnected
+[02:38:43] [Netty epoll Worker #0/ERROR] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] cocainefrog (/[0:0:0:0:0:0:0:1%0]:35220): disconnected while connecting to survival: §4[BungeeGuard]
+§r
+§r§fPlease install §aBungeeGuard+ §fon all servers
+§r§fto finish securing your proxy setup.
+§r
+§r§7More information:
+§r§bdocs.nickuc.com/bungeeguard
+[02:38:48] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] cocainefrog -> survival has connected
+[02:38:48] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] cocainefrog -> survival has disconnected
+[02:38:48] [Netty epoll Worker #0/ERROR] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] cocainefrog (/[0:0:0:0:0:0:0:1%0]:35220): disconnected while connecting to survival: §4[BungeeGuard]
+§r
+§r§fPlease install §aBungeeGuard+ §fon all servers
+§r§fto finish securing your proxy setup.
+§r
+§r§7More information:
+§r§bdocs.nickuc.com/bungeeguard
+[02:38:53] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] cocainefrog -> survival has connected
+[02:38:53] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] cocainefrog -> survival has disconnected
+[02:38:53] [Netty epoll Worker #0/ERROR] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] cocainefrog (/[0:0:0:0:0:0:0:1%0]:35220): disconnected while connecting to survival: §4[BungeeGuard]
+§r
+§r§fPlease install §aBungeeGuard+ §fon all servers
+§r§fto finish securing your proxy setup.
+§r
+§r§7More information:
+§r§bdocs.nickuc.com/bungeeguard
+[02:38:58] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] cocainefrog -> survival has connected
+[02:38:58] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] cocainefrog -> survival has disconnected
+[02:38:58] [Netty epoll Worker #0/ERROR] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] cocainefrog (/[0:0:0:0:0:0:0:1%0]:35220): disconnected while connecting to survival: §4[BungeeGuard]
+§r
+§r§fPlease install §aBungeeGuard+ §fon all servers
+§r§fto finish securing your proxy setup.
+§r
+§r§7More information:
+§r§bdocs.nickuc.com/bungeeguard
+[02:39:03] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] cocainefrog -> survival has connected
+[02:39:03] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] cocainefrog -> survival has disconnected
+[02:39:03] [Netty epoll Worker #0/ERROR] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] cocainefrog (/[0:0:0:0:0:0:0:1%0]:35220): disconnected while connecting to survival: §4[BungeeGuard]
+§r
+§r§fPlease install §aBungeeGuard+ §fon all servers
+§r§fto finish securing your proxy setup.
+§r
+§r§7More information:
+§r§bdocs.nickuc.com/bungeeguard
+[02:39:08] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] cocainefrog -> survival has connected
+[02:39:09] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] cocainefrog (/[0:0:0:0:0:0:0:1%0]:35220) has disconnected
+[02:39:09] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] cocainefrog -> survival has disconnected
+[02:39:09] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] cocainefrog -> lobby has disconnected
+[02:39:10] [Netty epoll Worker #2/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:47426]: Connected via websocket
+[02:39:10] [Netty epoll Worker #2/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:47426]: Origin header is https://englishmathtutor.com
+[02:39:10] [Netty epoll Worker #2/INFO] [eaglerxvelocity]: [connected player] cocainefrog (/[0:0:0:0:0:0:0:1%0]:47426) has connected
+[02:39:10] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] cocainefrog -> lobby has connected
+[02:39:15] [nLogin - Task Executor #5/INFO] [nlogin]: The user cocainefrog has successfully logged in.
+[02:39:15] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] cocainefrog -> survival has connected
+[02:39:16] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] cocainefrog -> lobby has disconnected
+[03:19:11] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] cocainefrog (/[0:0:0:0:0:0:0:1%0]:47426) has disconnected
+[03:19:11] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] cocainefrog -> survival has disconnected

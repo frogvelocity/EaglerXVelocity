@@ -1,0 +1,158 @@
+# Config of plugin ChestActions
+# To use colors write §
+
+#Prefix for all messages of the ChestActions plugin
+msgprefix: "§8[§6ChestActs§8] §7"
+
+#Notify operators on login if the plugin version you are using is out of date
+notify-update-for-ops: true
+
+#Do I need to send a message if the version of the plugin used is out of date
+update-message-on-start: true
+
+#Automatically close a player's inventory if they view the inventory of a player who logs out. Prevents possible dup, TRUE is recommended
+auto-close-if-left: true
+
+#Command "/chacts-exec" is only available for the console. If set to FALSE, it will be available to players with rights
+exec-cmd-console-only: true
+exec-cmd-console-only-msg: "Sorry, but this command is not available for players"
+
+#Error message when a non-numeric coordinate value is entered in command /chest
+open-crds-error: "The coordinates entered are not valid. Usage: /chest <x> <y> <z> [no messages: true]"
+
+#Message when the chest is opened using the command with coordinates
+open-with-crds: "The chest is open."
+
+#Message when a chest is opened with a command, when the player was looking at it
+open-with-target: "The chest is open."
+
+#Message when a chest with saved coordinates is opened using the command (/chest-open)
+open-saved-chest: "The chest is open."
+
+#Error message when the block at the entered coordinates is not a chest
+block-not-chest-in-crds: "§7The block at the given coordinates is not a chest. (Block: §c{WRONG_BLOCK}§7, X:{BLOCK_X}, Y:{BLOCK_Y}, Z:{BLOCK_Z})"
+
+#Error message when the block the player is looking at is not a chest or is too far away
+block-not-chest-in-target: "The block you are looking at is not a chest or is too far away."
+
+#Insufficient or excessive number of arguments in a command
+required-all-args: "Requires 3 coordinate values (x, y, z). You specified {ARGS_COUNT}. Usage: /chest <x> <y> <z> [no messages: true]"
+
+#Not enough arguments in command (/chest-open)
+absent-arguments-in-saved-chest-opening: "Not enough arguments. Use /chest-open <name of saved chest> [no messages: true]"
+
+#The message that appears when sending an /chestactions-list command
+act_list: "List of available actions"
+act_0: " - Make the player's health equal to the parameter"
+act_1: " - Add as much health to the player as specified in the parameter"
+act_2: " - Toggle player glow. In the parameter, specify 1 OR 0. (Enable/disable)"
+act_3: " - Close inventory (any interface) to the player"
+act_4: " - Open inventory of the player"
+
+#Message when a command is executed on behalf of another player
+cmd-launched-by-player: "The command was successfully executed on behalf of the player {TARGET_PLAYER}."
+
+#Error message when the entered player's nickname is not found
+player-not-found: "Player {TARGET_PLAYER} was not found."
+
+#Error message when there are not enough arguments in the command
+cmd-required-all-args: "Requires player nickname and command (without «/»). Usage: /chest-execute <player> <command>"
+
+#The maximum allowable distance at which the player can open the chest using aiming (/chest-target)
+target-distance: 6
+
+#Message when the player runs the command to open a chest with saved coordinates, but the name entered does not exist or the block in the saved coordinates is not a chest
+no-chest: "The chest you are trying to open is missing"
+
+#Message sent when another player's inventory is successfully closed
+player-inv-closed: "Player's inventory {TARGET_PLAYER} is closed"
+
+#Action Messages
+act-not-found: "Action «{YOUR_ACTION}» not found"
+act-set-health: "{ACT_PARAM} health points assigned to player {TARGET_PLAYER}"
+act-add-health: "{ACT_PARAM} health points added to player {TARGET_PLAYER}"
+act-glow: "Glow switched for player {TARGET_PLAYER}"
+act_closeinv: "Inventory (Any interface) of the player {TARGET_PLAYER} is closed"
+
+#Chest-content messages (Changing the contents of chests, saving contents, etc.)
+saved-chests-format: ".txt"
+non-numeric-coords: "Coordinates entered are not numbers"
+non-numeric-slot: "Slot entered are not number"
+non-numeric-id: "ID entered are not number"
+non-numeric-count: "Count entered are not number"
+non-numeric-data: "Data entered are not number"
+show-content-title: "Chest contents:"
+show-content-empty: "The chest is empty"
+cmd-usage: "Usage {COMMAND_USAGE}"
+save-process: "Saving the contents of the chest ({CHEST_X}, {CHEST_Y}, {CHEST_Z}) to a file..."
+save-process-success: "The file with the contents of the chest has been saved: {PATH}"
+load-process: "Loading content into the chest"
+load-exist-error: "§7File named §c{NAME}§7 not found. Use §f/chest-content files §7to view the available chest content files"
+item-replaced: "Replaced the item in slot {SLOT} with an {NEW_ITEM} (id:{NEW_ITEM_ID}, count:{COUNT}, data:{DATA})"
+not-block: "The block at coordinates {BLOCK_X} {BLOCK_Y} {BLOCK_Z} is not a chest. This is a §c{WRONG_BLOCK}§r"
+not-block-propmt: "§7Did you mean the chest at coordinates §a{BLOCK_X_PROPMT} {BLOCK_Y} {BLOCK_Z}§7?"
+console-use-hand-error: "The CONSOLE cannot use an item in its hand as an object, because the console has no hands"
+wrong-slot: "The slot number in the chest can take values from 0 to 26 inclusive. You entered {SLOT}"
+list-of-files: "List of available contents of chests (files)"
+no-chest-content-files: "No files were found with the contents of the chests. Create a new one with command {CMD_USAGE_CONTENT_SAVE}"
+id-bug: "Id bug :("
+save-error: "An error occurred while saving the file"
+save-unacceptable-symbols: "§cThe desired name contains an invalid character"
+save-net-impossible: "§cAt the moment, it is not possible to save the contents of the chests on the Internet"
+net-prompt: "§7You can prefix \"§fnet:§7\" in front of the name to use the contents of the chests from the Internet. For example §fnet:Sweden"
+net-error: "Failed to connect to the service"
+net-not-found: "§f{NET_NAME}§7 not found. Use §f/chest-content netlist"
+net-found: "Items from §a{NET_NAME}§7 are §aloaded§7 into the chest"
+net-list: "Title list:"
+
+
+#Message when reloading plugin configuration
+plugin-reload: "Plugin configuration has been reloaded."
+
+#Message when a player tries to launch a command to which he does not have permission
+permission-required: "§cInsufficient rights."
+
+#The default message sent when the player does not enter the required arguments in the command
+default-not-enoug-args: "§cNot enough arguments"
+
+#allow chest
+allow-chest: true
+#allow ender-chest
+allow-ender-chest: true
+#allow workbench
+allow-workbench: true
+
+#two options for the chest cleaner (command /chest-remover). Closing this chest will clear all items that are in it.
+remover-name: "Move trash here to get rid of it"
+slots-count: 9
+
+#The message sent when you use a non-numeric value, when a number is required
+msg-non-numeric: "The entered value «{INPUT_VALUE}» is not a number"
+
+
+
+
+#Saved coordinates of chests
+saved-chests:
+  example:
+      x: -364
+      y: 64
+      z: -64
+  second-example:
+      x: 1289
+      y: 80
+      z: 10
+
+#Here you can configure what will happen when you click on a certain block in certain coordinates.
+chest-actions-settings:
+  -359/64/-65:
+      block: chest
+      click: right
+      shift: true
+      undo-click: true
+      cmd-by-player: "me I open the chest..."
+      cmd-by-console: "say player {PLAYER} tried to open the chest at coordinates {BLOCK_X} {BLOCK_Y} {BLOCK_Z}"
+  -360/65/-65:
+      block: workbench
+      click: left
+      cmd-by-player: "me I hit the workbench."

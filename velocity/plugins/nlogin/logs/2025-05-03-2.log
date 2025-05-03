@@ -1,0 +1,63 @@
+[2025/05/03 02:29:23]: §9          __             _       
+[2025/05/03 02:29:23]: §9  _ __   / /  ___   __ _(_)_ __  
+[2025/05/03 02:29:23]: §9 | '_ \ / /  / _ \ / _` | | '_ \ 
+[2025/05/03 02:29:23]: §9 | | | / /__| (_) | (_| | | | | |
+[2025/05/03 02:29:23]: §9 |_| |_\____/\___/ \__, |_|_| |_|
+[2025/05/03 02:29:23]: §9                  |___/            
+[2025/05/03 02:29:23]: §9 By: www.nickuc.com - V 10.4.21
+[2025/05/03 02:29:23]: §9 
+[2025/05/03 02:29:24]: §3[nLogin] [DEBUG] All settings were loaded in 147 ms.
+[2025/05/03 02:29:24]: §3[nLogin] [DEBUG] Loading the messages_en.yml message file...
+[2025/05/03 02:29:24]: §3[nLogin] [DEBUG] All plugin messages were loaded in 64 ms (languageByClient=false).
+[2025/05/03 02:29:24]: §3[nLogin] [DEBUG] All proxy settings were loaded in 17 ms.
+[2025/05/03 02:29:24]: §3[nLogin] [DEBUG] Loading database...
+[2025/05/03 02:29:24]: §e[nLogin] [WARN] 
+[2025/05/03 02:29:24]: §e[nLogin] [WARN] Server requires conversion of database. (nLogin104Converter)
+[2025/05/03 02:29:24]: §e[nLogin] [WARN] DO NOT TURN OFF YOUR SERVER (even if the process seems stuck)
+[2025/05/03 02:29:24]: §e[nLogin] [WARN] 
+[2025/05/03 02:29:24]: §e[nLogin] [WARN] Fetching column names...
+[2025/05/03 02:29:24]: §e[nLogin] [WARN] Renaming table...
+[2025/05/03 02:29:24]: §e[nLogin] [WARN] Cloning table...
+[2025/05/03 02:29:24]: §e[nLogin] [WARN] Fetching duplicated UUIDs...
+[2025/05/03 02:29:24]: §e[nLogin] [WARN] Inserting remaining accounts with duplicated UUIDs... (insert = 0, skip = 0)
+[2025/05/03 02:29:24]: §e[nLogin] [WARN] Conversion finished! (0.120s)
+[2025/05/03 02:29:24]: §3[nLogin] [DEBUG] Starting logger filter...
+[2025/05/03 02:29:29]: 
+[2025/05/03 02:29:29]:  §bThank you so much for choosing nLogin! §4<3
+[2025/05/03 02:29:29]: 
+[2025/05/03 02:29:29]:  §4For your safety, please read the message below:
+[2025/05/03 02:29:29]:   §cNever download nLogin from unknown sources.
+[2025/05/03 02:29:29]:   §cA modified version may contain malicious software.
+[2025/05/03 02:29:29]: 
+[2025/05/03 02:29:29]:  §3Trusted sources:
+[2025/05/03 02:29:29]:   §bwww.nickuc.com
+[2025/05/03 02:29:29]:   §bwww.github.com/nickuc
+[2025/05/03 02:29:29]:   §bOpeNLogin installer (from Spigot or GitHub)
+[2025/05/03 02:29:29]: 
+[2025/05/03 02:29:29]:  §3Official support channels:
+[2025/05/03 02:29:29]:   §bDiscord group: §fwww.nickuc.com/discord
+[2025/05/03 02:29:29]:   §bDocumentation: §fdocs.nickuc.com/nlogin/
+[2025/05/03 02:29:29]:   §bEmail: §fsupport@nickuc.com
+[2025/05/03 02:29:29]:   §bYouTube: §fyoutube.com/nickuc
+[2025/05/03 02:29:29]: 
+[2025/05/03 02:29:29]:  §eTo remove this warning, log in with "nlogin.admin" permission on the server
+[2025/05/03 02:29:29]:  §eand click the "Setup plugin" button to configure your plugin.
+[2025/05/03 02:29:29]: 
+[2025/05/03 02:29:51]: §3[nLogin] [DEBUG] [SQLite] [UPDATE]: "INSERT INTO `nlogin` (`last_name`, `unique_id`, `mojang_id`, `bedrock_id`, `password`, `last_ip`, `creation_date`, `last_seen`, `email`, `discord`, `settings`) VALUES ('cocainefrog', 684e07b6b6f631e68ab8235c4fbff978, null, null, '$2a$10$2s9nzkitZX5nR5g/xw/8V.0pu99wdsUi/nXt3SWyBTXty.NIweFpW', '0:0:0:0:0:0:0:1%0', '2025-05-03 02:29:51.016', '2025-05-03 02:29:51.016', null, null, '{"settings":[{"value":true,"key":"force-invalid-session"}],"version":0}')" (applied to all columns)
+[2025/05/03 02:29:51]: [nLogin] The user cocainefrog has successfully registered.
+[2025/05/03 02:35:57]: §3[nLogin] [DEBUG] [SQLite] [UPDATE]: "UPDATE `nlogin` SET `last_name` = 'cocainefrog', `unique_id` = 684e07b6b6f631e68ab8235c4fbff978,  `mojang_id` = null,  `bedrock_id` = null,  `password` = '$2a$10$2s9nzkitZX5nR5g/xw/8V.0pu99wdsUi/nXt3SWyBTXty.NIweFpW', `last_ip` = '0:0:0:0:0:0:0:1%0', `creation_date` = 2025-05-03 02:29:51.016, `last_seen` = 2025-05-03 02:35:57.625, `email` = null, `discord` = null, `settings` = '{"settings":[{"value":true,"key":"force-invalid-session"},{"value":"survival","key":"last-server"},{"value":"en","key":"language"}],"version":0}' WHERE `ai` = 1" (applied to [last_seen, settings] columns)
+[2025/05/03 02:36:24]: §3[nLogin] [DEBUG] [SQLite] [UPDATE]: "UPDATE `nlogin` SET `last_name` = 'cocainefrog', `unique_id` = 684e07b6b6f631e68ab8235c4fbff978,  `mojang_id` = null,  `bedrock_id` = null,  `password` = '$2a$10$2s9nzkitZX5nR5g/xw/8V.0pu99wdsUi/nXt3SWyBTXty.NIweFpW', `last_ip` = '0:0:0:0:0:0:0:1%0', `creation_date` = 2025-05-03 02:29:51.016, `last_seen` = 2025-05-03 02:36:24.614, `email` = null, `discord` = null, `settings` = '{"settings":[{"value":"survival","key":"last-server"},{"value":"en","key":"language"}],"version":0}' WHERE `ai` = 1" (applied to [last_ip, last_seen, settings] columns)
+[2025/05/03 02:36:24]: [nLogin] The user cocainefrog has successfully logged in.
+[2025/05/03 02:36:57]: §3[nLogin] [DEBUG] [SQLite] [UPDATE]: "UPDATE `nlogin` SET `last_name` = 'cocainefrog', `unique_id` = 684e07b6b6f631e68ab8235c4fbff978,  `mojang_id` = null,  `bedrock_id` = null,  `password` = '$2a$10$2s9nzkitZX5nR5g/xw/8V.0pu99wdsUi/nXt3SWyBTXty.NIweFpW', `last_ip` = '0:0:0:0:0:0:0:1%0', `creation_date` = 2025-05-03 02:29:51.016, `last_seen` = 2025-05-03 02:36:57.967, `email` = null, `discord` = null, `settings` = '{"settings":[{"value":"lobby","key":"last-server"},{"value":"en","key":"language"}],"version":0}' WHERE `ai` = 1" (applied to [last_seen, settings] columns)
+[2025/05/03 02:37:04]: §3[nLogin] [DEBUG] [SQLite] [UPDATE]: "UPDATE `nlogin` SET `last_name` = 'cocainefrog', `unique_id` = 684e07b6b6f631e68ab8235c4fbff978,  `mojang_id` = null,  `bedrock_id` = null,  `password` = '$2a$10$2s9nzkitZX5nR5g/xw/8V.0pu99wdsUi/nXt3SWyBTXty.NIweFpW', `last_ip` = '0:0:0:0:0:0:0:1%0', `creation_date` = 2025-05-03 02:29:51.016, `last_seen` = 2025-05-03 02:37:04.407, `email` = null, `discord` = null, `settings` = '{"settings":[{"value":"lobby","key":"last-server"},{"value":"en","key":"language"}],"version":0}' WHERE `ai` = 1" (applied to [last_ip, last_seen, settings] columns)
+[2025/05/03 02:37:04]: [nLogin] The user cocainefrog has successfully logged in.
+[2025/05/03 02:37:23]: §3[nLogin] [DEBUG] [SQLite] [UPDATE]: "UPDATE `nlogin` SET `last_name` = 'cocainefrog', `unique_id` = 684e07b6b6f631e68ab8235c4fbff978,  `mojang_id` = null,  `bedrock_id` = null,  `password` = '$2a$10$2s9nzkitZX5nR5g/xw/8V.0pu99wdsUi/nXt3SWyBTXty.NIweFpW', `last_ip` = '0:0:0:0:0:0:0:1%0', `creation_date` = 2025-05-03 02:29:51.016, `last_seen` = 2025-05-03 02:37:23.266, `email` = null, `discord` = null, `settings` = '{"settings":[{"value":"lobby","key":"last-server"},{"value":"en","key":"language"}],"version":0}' WHERE `ai` = 1" (applied to [last_seen, settings] columns)
+[2025/05/03 02:37:29]: §3[nLogin] [DEBUG] [SQLite] [UPDATE]: "UPDATE `nlogin` SET `last_name` = 'cocainefrog', `unique_id` = 684e07b6b6f631e68ab8235c4fbff978,  `mojang_id` = null,  `bedrock_id` = null,  `password` = '$2a$10$2s9nzkitZX5nR5g/xw/8V.0pu99wdsUi/nXt3SWyBTXty.NIweFpW', `last_ip` = '0:0:0:0:0:0:0:1%0', `creation_date` = 2025-05-03 02:29:51.016, `last_seen` = 2025-05-03 02:37:29.278, `email` = null, `discord` = null, `settings` = '{"settings":[{"value":"lobby","key":"last-server"},{"value":"en","key":"language"}],"version":0}' WHERE `ai` = 1" (applied to [last_ip, last_seen, settings] columns)
+[2025/05/03 02:37:29]: [nLogin] The user cocainefrog has successfully logged in.
+[2025/05/03 02:38:25]: §3[nLogin] [DEBUG] [SQLite] [UPDATE]: "UPDATE `nlogin` SET `last_name` = 'cocainefrog', `unique_id` = 684e07b6b6f631e68ab8235c4fbff978,  `mojang_id` = null,  `bedrock_id` = null,  `password` = '$2a$10$2s9nzkitZX5nR5g/xw/8V.0pu99wdsUi/nXt3SWyBTXty.NIweFpW', `last_ip` = '0:0:0:0:0:0:0:1%0', `creation_date` = 2025-05-03 02:29:51.016, `last_seen` = 2025-05-03 02:38:25.431, `email` = null, `discord` = null, `settings` = '{"settings":[{"value":"lobby","key":"last-server"},{"value":"en","key":"language"}],"version":0}' WHERE `ai` = 1" (applied to [last_seen, settings] columns)
+[2025/05/03 02:38:32]: §3[nLogin] [DEBUG] [SQLite] [UPDATE]: "UPDATE `nlogin` SET `last_name` = 'cocainefrog', `unique_id` = 684e07b6b6f631e68ab8235c4fbff978,  `mojang_id` = null,  `bedrock_id` = null,  `password` = '$2a$10$2s9nzkitZX5nR5g/xw/8V.0pu99wdsUi/nXt3SWyBTXty.NIweFpW', `last_ip` = '0:0:0:0:0:0:0:1%0', `creation_date` = 2025-05-03 02:29:51.016, `last_seen` = 2025-05-03 02:38:32.711, `email` = null, `discord` = null, `settings` = '{"settings":[{"value":"lobby","key":"last-server"},{"value":"en","key":"language"}],"version":0}' WHERE `ai` = 1" (applied to [last_ip, last_seen, settings] columns)
+[2025/05/03 02:38:32]: [nLogin] The user cocainefrog has successfully logged in.
+[2025/05/03 02:39:09]: §3[nLogin] [DEBUG] [SQLite] [UPDATE]: "UPDATE `nlogin` SET `last_name` = 'cocainefrog', `unique_id` = 684e07b6b6f631e68ab8235c4fbff978,  `mojang_id` = null,  `bedrock_id` = null,  `password` = '$2a$10$2s9nzkitZX5nR5g/xw/8V.0pu99wdsUi/nXt3SWyBTXty.NIweFpW', `last_ip` = '0:0:0:0:0:0:0:1%0', `creation_date` = 2025-05-03 02:29:51.016, `last_seen` = 2025-05-03 02:39:09.137, `email` = null, `discord` = null, `settings` = '{"settings":[{"value":"lobby","key":"last-server"},{"value":"en","key":"language"}],"version":0}' WHERE `ai` = 1" (applied to [last_seen, settings] columns)
+[2025/05/03 02:39:15]: §3[nLogin] [DEBUG] [SQLite] [UPDATE]: "UPDATE `nlogin` SET `last_name` = 'cocainefrog', `unique_id` = 684e07b6b6f631e68ab8235c4fbff978,  `mojang_id` = null,  `bedrock_id` = null,  `password` = '$2a$10$2s9nzkitZX5nR5g/xw/8V.0pu99wdsUi/nXt3SWyBTXty.NIweFpW', `last_ip` = '0:0:0:0:0:0:0:1%0', `creation_date` = 2025-05-03 02:29:51.016, `last_seen` = 2025-05-03 02:39:15.466, `email` = null, `discord` = null, `settings` = '{"settings":[{"value":"lobby","key":"last-server"},{"value":"en","key":"language"}],"version":0}' WHERE `ai` = 1" (applied to [last_ip, last_seen, settings] columns)
+[2025/05/03 02:39:15]: [nLogin] The user cocainefrog has successfully logged in.
+[2025/05/03 03:19:11]: §3[nLogin] [DEBUG] [SQLite] [UPDATE]: "UPDATE `nlogin` SET `last_name` = 'cocainefrog', `unique_id` = 684e07b6b6f631e68ab8235c4fbff978,  `mojang_id` = null,  `bedrock_id` = null,  `password` = '$2a$10$2s9nzkitZX5nR5g/xw/8V.0pu99wdsUi/nXt3SWyBTXty.NIweFpW', `last_ip` = '0:0:0:0:0:0:0:1%0', `creation_date` = 2025-05-03 02:29:51.016, `last_seen` = 2025-05-03 03:19:11.719, `email` = null, `discord` = null, `settings` = '{"settings":[{"value":"survival","key":"last-server"},{"value":"en","key":"language"}],"version":0}' WHERE `ai` = 1" (applied to [last_seen, settings] columns)
